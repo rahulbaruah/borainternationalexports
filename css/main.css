@@ -1,0 +1,258 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+    font-family: Source sans pro, sans-serif;
+    font-size: 14px;
+}
+
+
+p{
+    font-size: 1.2em;
+    line-height: 1.45em;
+}
+
+
+a{
+    color: #666;
+    transition: 0.2s color;
+}
+a:hover{
+    color: #FF4081;
+    text-decoration: none;
+}
+
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+
+
+
+header{
+    width: 100%;
+    padding: 2em 1em 0 1em;
+}
+.brand-bar{
+    max-width: 68.571em;
+    margin: auto;
+}
+.brand{
+    vertical-align: middle;
+}
+.brand__logo{
+    vertical-align: middle;
+}
+.brand__title{
+    padding-left: 0.2em;
+    vertical-align: middle;
+    font-size: 2.4em;
+    font-weight: 600;
+}
+
+
+
+.customer-stats{
+    float: right;
+    margin-top: 1.5em;
+    font-size: 1.2em;
+}
+.customer-stats__cart{
+    margin-right: 2em;
+}
+.customer-stats__cart>img{
+    height: 1.5em;
+}
+
+
+
+.nav-bar{
+    max-width: 57.143em;
+    margin: 2em auto 0 auto;
+    background-color: #eee;
+    font-size: 1.2em;
+    border-radius: 0.2em;
+}
+.pri-link{
+    display: inline-block;
+    margin-right: 2em;
+    padding: 0.8em 1em 0.8em 2em;
+}
+
+
+
+.sec{
+    margin: 4em auto;
+}
+.sec__container{
+    max-width: 68.571em;
+    margin: auto;
+    text-align: center;
+}
+.sec__title{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.x-pagination__link a{
+    font-size: 1.3em;
+    padding: 0.6em 1em;
+    color: #999;
+    border: 1px solid #fff;
+    border-radius: 0.1em;
+    transition: 0.2s border-color;
+}
+.x-pagination__link a:hover{
+    color: #FF4081;
+    border-color: #eee;
+}
+
+
+footer{
+    padding-top: 4em;
+    background-color: #464646;
+    color: #999;
+}
+.footer-container{
+    max-width: 68.571em;
+    margin: auto;
+}
+.footer-sec{
+    display: inline-block;
+    vertical-align: top;
+    margin: 2em 0;
+    padding: 0 1em;
+}
+.footer__links{
+    width: 40%;
+}
+.footer__links>ul{
+    margin: 2em 1.5em 2em 0;
+}
+.footer__links>ul>li{
+        margin: 0.4em 0;
+}
+.footer__links>ul>li>a{
+    font-size: 1.2em;
+    color: #999;
+}
+.footer__links>ul>li>a:hover{
+    font-size: 1.2em;
+    color: #FF4081;
+}
+.footer__social{
+    width: 23%;
+}
+.footer__social__icon{
+    height: 2.5em;
+    margin: 2em 1.5em 2em 0;
+}
+.footer__about{
+    width: 35%;
+}
+.footer__about>p{
+    margin: 2em 0;
+}
+
+
+
+.hilights img{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+
+.craft{
+    background-color: #363636;
+    font-size: 1.2em;
+}
+.craft-container{
+    max-width: 68.571em;
+    margin: auto;
+}
+.craft__credit{
+    display: inline-block;
+    padding: 1em 0 1em 1em;
+    cursor: pointer;
+}
+.craft__credit{
+    padding-left: 0.2em;
+    font-weight: 300;
+    color: #eee;
+}
+.craft__copyright{
+    display: inline-block;
+    float: right;
+    padding: 1em 1em 1em 0;
+}
+
+
+.sec__row{
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      flex-wrap: wrap;
+      overflow: hidden;
+      justify-content: center;
+}
+.product{
+       width: 24.5%;
+       min-width: 200px;
+
+    flex: none;
+    margin-top: 1em;
+    margin-left: 1px;
+    margin-right: auto;
+    margin-bottom: 1px;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 0.1em;
+    transition: 0.2s box-shadow;
+}
+.product:hover{
+    -webkit-box-shadow: 0px 0px 1px 1px rgba(238,238,238,1);
+    -moz-box-shadow: 0px 0px 1px 1px rgba(238,238,238,1);
+    box-shadow: 0px 0px 1px 1px rgba(238,238,238,1);
+}
+.product__display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15em;
+    padding: 1em;
+    /*     background-color: #fff;    */
+
+}
+.product__display>img{
+
+    max-width: 100%;
+    max-height: 100%;
+}
+.product__details{
+     padding: 0 0.5em 1em 0.5em;
+
+    /*     background-color: #fff;    */
+
+}
+.product__details__name, .product__details__price{
+    color: #333;
+    transition: 0.2s color;
+}
+.product:hover .product__details__name{
+    color: #FF4081;
+}
+.product__details__misc{
+    margin-top: 0.3em;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #666;
+}
