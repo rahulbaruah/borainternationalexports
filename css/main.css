@@ -73,16 +73,28 @@ header{
 
 
 .nav-bar{
-    max-width: 57.143em;
+    /*max-width: 57.143em;*/
     margin: 2em auto 0 auto;
-    background-color: #eee;
-    font-size: 1.2em;
-    border-radius: 0.2em;
+    background-color: #eee!important;
+    font-size: 1.2em!important;
+    border-radius: 0.2em!important;
+    background-image: none!important;
 }
 .pri-link{
     display: inline-block;
     margin-right: 2em;
-    padding: 0.8em 1em 0.8em 2em;
+    padding: 0.3em;
+}
+.navbar-toggle {
+    float:left;
+    margin-left:1em;
+}
+.pri-link a{
+    color: #666!important;
+    transition: 0.2s color;
+}
+.pri-link a:hover{
+    color: #FF4081!important;
 }
 
 
