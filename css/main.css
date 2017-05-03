@@ -237,7 +237,7 @@ footer{
 }
 .product__display>img{
 
-    max-width: 100%;
+    max-width: 300px;
     max-height: 100%;
 }
 .product__details{
@@ -319,6 +319,108 @@ footer{
     color: #FF4081;
     border-color: #FF4081;
 }
-.x-pagination__link a.current{
-    border-color: #ddd;
+.help-btn{
+    color: #999;
+}
+
+
+.product-page__product__display{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+.product-page__product__info{
+    display: inline-block;
+    vertical-align: top;
+    width: 49.5%;
+    padding: 0em 2em 2em 2em;
+    text-align: left;
+}
+.product-page__product__info__title{
+    margin-top: 0;
+    font-size: 2em;
+    font-weight: 600;
+}
+.product-page__product__info__price{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.product-page__product__info__quantity{
+    margin: 1em auto;
+}
+.product-page__product__info__quantity__label{
+    padding-right: 1em;
+    font-size: 1.2em;
+}
+.product-page__product__info__quantity__value{
+    padding: 0.3em 0.4em;
+}
+.product-page__product__info__variants{
+    margin: 1em auto 2em auto;
+    font-size: 1.2em;
+}
+.product-variant-btn{
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin: 0.3em 0.3em 0.3em 0;
+    border: 1px solid #ddd;
+    border-radius: 0.1em;
+    color: #999;
+    cursor: pointer;
+    transition: 0.2s border-color;
+}
+.product-variant-btn:hover{
+    border-color: #999;
+}
+.product-variant-btn.active{
+    border-color: #999;
+    color: #333
+}
+.product-page__product__info__cta{
+    display: inline-block;
+    padding: 0.7em 2.5em;
+    border: 1px solid #FF4081;
+    border-radius: 0.1em;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #333;
+}
+.product-page__product__info__details{
+    margin: 4em auto 2em auto;
+}
+.product-page__product__info__details__title{
+    font-size: 2em;
+}
+
+.product-page__product__info__review__title{
+    font-size: 2em;
+}
+
+
+/* product image viewer */
+.sp-wrap{
+    width: 100%;
+    max-width: 600px;
+    float: none;
+    margin: 0;
+    border:1px solid #eee;
+    background: #fff;
+    font-size: 1em;
+    line-height: 1em;
+}
+.sp-large{
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid #eee;
+}
+.sp-large a img{
+    width: 100%;
+}
+.sp-thumbs{
+    text-align: center;
+}
+.sp-thumbs a:link{
+    width: 6em;
+    height: 6em;
+    margin: 0.5em;
+    border: 1px solid #eee;
 }

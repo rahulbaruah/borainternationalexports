@@ -16,11 +16,13 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
 
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/smoothproducts.css">
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
     </head>
-    <body class="login">
+    <body class="product-page">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -66,42 +68,80 @@
 
             <section class="sec catagory">
                 <div class="sec__container">
-                    <h1 class="sec__title">Sign Up</h1>
 
+       				 <div class="product-page__product">
+                         <div class="product-page__product__display">
+                            <div class="sp-loading">
+                                <img src="img/sp-loading.gif" alt="">
+                                <br>LOADING IMAGES
+                            </div>
+                    		<div class="sp-wrap">
+                    			<a href="img/products/catagory/product-1/1.jpg">
+                                    <img src="img/products/catagory/product-1/1_tb.jpg" alt="">
+                                </a>
+                    			<a href="img/products/catagory/product-1/2.jpg">
+                                    <img src="img/products/catagory/product-1/2_tb.jpg" alt="">
+                                </a>
+                    			<a href="img/products/catagory/product-1/3.jpg">
+                                    <img src="img/products/catagory/product-1/3_tb.jpg" alt="">
+                                </a>
+                    			<a href="img/products/catagory/product-1/4.jpg">
+                                    <img src="img/products/catagory/product-1/4_tb.jpg" alt="">
+                                </a>
+                    			<a href="img/products/catagory/product-1/5.jpg">
+                                    <img src="img/products/catagory/product-1/5_tb.jpg" alt="">
+                                </a>
+                    			<a href="img/products/catagory/product-1/6.jpg">
+                                    <img src="img/products/catagory/product-1/6_tb.jpg" alt="">
+                                </a>
+                    		</div>
+                         </div>
+                         <div class="product-page__product__info">
+                             <h1 class="product-page__product__info__title">Apple iPhone 6s Plus</h1>
+                             <div class="product-page__product__info__price">Rs. 59,990</div>
 
-       				 <p class=""><a href="#">I already have an account !</a></p>
+                             <div class="product-page__product__info__quantity">
+                                 <span class="product-page__product__info__quantity__label">Quantity</span>
+                                 <select class="product-page__product__info__quantity__value">
+                                     <option value="1">1</option>
+                                     <option value="2">2</option>
+                                     <option value="3">3</option>
+                                     <option value="4">4</option>
+                                     <option value="5">5</option>
+                                 </select>
+                             </div>
 
-       				 <form class="form">
-                         <div class="form__input">
-                             <label class="form__input__label">Name</label>
-           					 <input class="form__input__field" type="text" value="" required="required">
-                         </div>
-                         <div class="form__input">
-                             <label class="form__input__label">Email</label>
-           					 <input class="form__input__field" type="email" value="" required="required">
-                         </div>
-                         <div class="form__input">
-                             <label class="form__input__label">Phone</label>
-           					 <input class="form__input__field" type="tel" value="" required="required">
-                         </div>
-                         <div class="form__input">
-                             <label class="form__input__label">User name</label>
-           					 <input class="form__input__field" type="text" value="" required="required">
-                         </div>
-                         <div class="form__input">
-                             <label class="form__input__label">Password</label>
-                             <input class="form__input__field" type="password" value="" required="required">
-                         </div>
-                         <div class="form__input">
-                             <label class="form__input__label">Confirm password</label>
-           					 <input class="form__input__field" type="text" value="" required="required">
-                         </div>
-       					 <div class="form__input">
-                             <input class="form__input__submit" type="submit" value="Sign Up">
-           					 <a class="help-btn" href="#">I already have an account !</a>
+                             <div class="product-page__product__info__variants">
+                                 <div>Select <span>color</span></div>
+                                 <span class="product-variant-btn active">Golden white</span>
+                                 <span class="product-variant-btn">Black</span>
+                                 <span class="product-variant-btn">Red</span>
+                             </div>
+
+                             <a class="product-page__product__info__cta" href="#">Add to cart</a>
+
+                             <div class="product-page__product__info__details">
+                                 <h2 class="product-page__product__info__details__title">Product details</h2>
+                                 <p>
+                                     Grey Melange printed T-shirt, engineered with Dry-Fit technology, has a round neck, short sleeves Warranty: 6 months against manufacturing defects (not valid on products with more than 20% discount).
+                                 </p>
+
+                             </div>
+
+                             <div class="product-page__product__info__review">
+                                 <h2 class="product-page__product__info__review__title">Product review</h2>
+                                 <p>
+                                     ***** Grey Melange printed T-shirt, engineered with Dry-Fit technology, has a round neck.
+                                 </p>
+
+                                 <p>
+                                     ***** Short sleeves Warranty: 6 months against manufacturing defects.
+                                 </p>
+
+                             </div>
                          </div>
 
-       				 </form>
+                     </div>
 
                 </div>
             </section>
@@ -149,14 +189,21 @@
 
         </footer>
 
-        <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="js/vendor/jquery-2.1.3.min.js"></script>
+        <script src="js/vendor/smoothproducts.min.js"></script>
+
 
         <script src="js/vendor/bootstrap.min.js"></script>
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
+        <script type="text/javascript">
+        	/* wait for images to load */
+        	$(window).load(function() {
+        		$('.sp-wrap').smoothproducts();
+        	});
+        </script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <!--<script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
